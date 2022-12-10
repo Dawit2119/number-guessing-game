@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarnpkg install
+
+PATH: 
+  /home/dave/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dave/.dotnet/tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect ECONNREFUSED 104.16.26.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)
+
+npm manifest: 
+  {
+    "name": "number-guess-game",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~47.0.8",
+      "expo-status-bar": "~1.4.2",
+      "react": "18.1.0",
+      "react-native": "0.70.5"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
