@@ -3,8 +3,8 @@
     "name": "number-guess-game",
     "slug": "number-guess-game",
     "version": "1.0.0",
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "orientation":"default",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
